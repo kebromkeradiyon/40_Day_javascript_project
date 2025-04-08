@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-container {
+    background: #fff;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .carousel {
+    min-height: 150px;
+    position: relative;
+  }
+  
+  .review {
+    display: none;
+    transition: all 0.3s ease;
+  }
+  
+  .review.active {
+    display: block;
+  }
+  
+  .review p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .review h4 {
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  .controls button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 8px 16px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .controls button:hover {
+    background-color: #0056b3;
+  }
+  
